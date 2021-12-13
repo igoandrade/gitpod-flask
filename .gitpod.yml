@@ -1,6 +1,5 @@
 tasks:
-  - name: Python Requirements
-    init: pip install -r requirements.txt
+  - command: pip install -r requirements.txt
       
 vscode:
   extensions:
