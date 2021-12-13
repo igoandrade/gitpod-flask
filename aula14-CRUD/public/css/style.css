@@ -1,0 +1,27 @@
+body {
+    background-color:lightgray;
+    margin: 10px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    padding: 20px 15px 20px 15px;
+    background-color: white;
+    min-width: 400px;
+    width: 75%;
+    border-radius: 5px;
+    margin: auto;
+    justify-content: center;
+}
+
+.form-login {
+    padding: 24px;
+    background-color: white;
+    width: 400px;
+    border-radius: 5px;
+    margin: auto;
+    justify-content: center;   
+}
