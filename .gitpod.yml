@@ -1,9 +1,12 @@
-tasks:   
-  - init: |
-      python3 -m venv venv
-      source venv/bin/activate
-      pip3 install --upgrade pip
-      pip3 install -r requirements.txt
+tasks:
+  - init: python3 -m venv venv
+  - command: python3 -m venv venv
+  - init: source venv/bin/activate
+  - command: source venv/bin/activate
+  - init: pip3 install -r requirements.txt
+  - command: pip3 install -r requirements.txt
+      
+      
 vscode:
   extensions:
     - ms-python.python
